@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Page Layout</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <h3 class="navbar-brand">Ink Haven</h3>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#home">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#products">Products</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#portfolio">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact Us</a>
+                    </li>
+                </ul>                
+            </div>
+        </div>
+    </nav>  
+    
+    <div id="home" class="hero">
+        <img src="background.png" alt="Hero Image">
+        <div class="overlay">
+            <h1>Welcome to Ink Haven</h1>
+            <h5>Transform your concept into art with a free tattoo consultation. Let our skilled artists craft a personalised tattoo for you!</h5>
+            <button class="btn" style="background-color: #da3315;">Book Consultation</button>
+        </div>
+    </div>
+
+    <div id="products" class="text-center my-5">
+        <h1>Our Products</h1>
+        <div class="row justify-content-center mt-4">
+            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center mb-4">
+                <div class="icon1" style="display: flex; justify-content: center; align-items: center; width: 70px; height: 70px; background-color: #da3315; border-radius: 50%; border: 2px solid black;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="#da3315" class="bi bi-star" stroke="black" stroke-width="2">
+                        <path d="M12 .587l3.668 7.428 8.243 1.198-5.95 5.188L19.896 24 12 20.239 4.104 24l1.936-8.597-5.95-5.188 8.243-1.198z"/>
+                    </svg>
+                </div>
+                <h4>Aftercare Kits</h4>
+                <p>Ensure your new tattoo heals beautifully with our curated aftercare kits</p>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center mb-4">
+                <div class="icon1" style="display: flex; justify-content: center; align-items: center; width: 70px; height: 70px; background-color: #da3315; border-radius: 50%; border: 2px solid black;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="#da3315" class="bi bi-star" stroke="black" stroke-width="2">
+                        <path d="M12 .587l3.668 7.428 8.243 1.198-5.95 5.188L19.896 24 12 20.239 4.104 24l1.936-8.597-5.95-5.188 8.243-1.198z"/>
+                    </svg>
+                </div>
+                <h4>Custom Prints</h4>
+                <p>Bring home a piece of original art!</p>
+            </div>
+            
+            <div class="col-12 col-md-6 col-lg-4 d-flex flex-column align-items-center mb-4">
+                <div class="icon1" style="display: flex; justify-content: center; align-items: center; width: 70px; height: 70px; background-color: #da3315; border-radius: 50%; border: 2px solid black;">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="#da3315" class="bi bi-star" stroke="black" stroke-width="2">
+                        <path d="M12 .587l3.668 7.428 8.243 1.198-5.95 5.188L19.896 24 12 20.239 4.104 24l1.936-8.597-5.95-5.188 8.243-1.198z"/>
+                    </svg>
+                </div>
+                <h4>Merchandise</h4>
+                <p>Show off your Ink Haven pride with our exclusive branded apparel and accessories.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="portfolio" class="container-fluid light-grey d-flex justify-content-between align-items-center py-5">
+        <div class="row w-100">
+            <div class="col-md-8 p-4">
+                <h2>About Us</h2>
+                <p>Our talented team of tattoo artists is dedicated to creating unique, personalized designs that reflect your individuality. We prioritize quality, safety, and a welcoming atmosphere, making your tattoo experience memorable. Join us at Ink Haven, and let’s bring your vision to life!</p>
+            </div>
+            <div class="col-md-4 p-4"> 
+                <img src="about-us.jpg" alt="About Us" class="img-fluid mt-4">
+            </div>
+        </div>
+    </div>      
+
+    <div id="carouselExample" class="carousel slide" data-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="row align-items-center p-4">
+                    <div class="col-md-6 text-center">
+                        <img src="first.png" alt="First Image" class="circle-img">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Over 1,000 Google Reviews</h3>
+                        <p>Join our community of satisfied clients who rave about their experiences at Ink Haven!</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row align-items-center p-4">
+                    <div class="col-md-6 text-center">
+                        <img src="3.png" alt="Second Image" class="circle-img">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>4.8-Star Rating</h3>
+                        <p>Consistently rated among the best, our commitment to quality and service speaks for itself.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="row align-items-center p-4">
+                    <div class="col-md-6 text-center">
+                        <img src="2.png" alt="Third Image" class="circle-img">
+                    </div>
+                    <div class="col-md-6">
+                        <h3>14 Years of Experience</h3>
+                        <p>Trust your vision to our skilled artists, who bring over a decade of expertise to every tattoo.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExample" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExample" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </a>
+    </div>    
+
+    <div class="full-width-bg">
+        <div class="container my-4">
+            <div class="row">
+                <div class="col-md-8">
+                    <input type="email" class="form-control" placeholder="Enter your email">
+                </div>
+                <div class="col-md-4">
+                    <button class="btn" style="background-color: #da3315; color: white;">Subscribe</button>
+                </div>
+            </div>
+        </div>
+    </div>           
+
+    <div id="contact" class="contact container p-4">
+        <div class="row">
+
+            <div class="col-md-4">
+                <h5>About Company</h5>
+                <p>Ink Haven turns your ideas into stunning tattoos. With 14 years of experience and a 4.8-star rating from 1,000+ reviews, our talented artists create unique designs in a welcoming environment.</p>
+            </div>
+
+            <div class="col-md-4">
+                <h5>Quick Links</h5>
+                <ul class="list-unstyled">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact Us</a></li>
+                </ul>
+            </div>            
+
+            <div class="col-md-4">
+                <h5>Contact Us</h5>
+                <p>info@example.com</p>
+                <p>+1234567890</p>
+                <div class="social-icons">
+                    <a href="#" class="mr-2"><i class="bi bi-facebook"></i></a>
+                    <a href="#" class="mr-2"><i class="bi bi-whatsapp"></i></a>
+                    <a href="#"><i class="bi bi-google"></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer text-center py-3">
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.0.7/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
